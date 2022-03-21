@@ -5,8 +5,8 @@ function Home() {
         <div>
             <nav className="header navbar navbar-dark bg-dark">
                 <div className="container-fluid">
-                <NavLink exact className={({isActive}) => (isActive ? "active navbar-brand" : 'navbar-brand')} to="/home">Home</NavLink>
-                <NavLink className={({isActive}) => (isActive ? "active navbar-brand" : 'navbar-brand')} to="/dashboard">Dashboard</NavLink>
+                <NavLink exact className={({isActive}) => (isActive ? "active navbar-brand" : 'navbar-brand')} to="/home/">Home</NavLink>
+                <NavLink className={({isActive}) => (isActive ? "active navbar-brand" : 'navbar-brand')} to="/dashboard/">Dashboard</NavLink>
                 </div>
             </nav>
             <div className="m-3">
