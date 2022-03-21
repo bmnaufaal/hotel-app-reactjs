@@ -4,7 +4,7 @@ import { getToken } from './Common';
  
 const PrivateRoute = () => {
   return (
-         getToken() ? <Outlet /> : <Navigate to="/login" />
+         getToken() ? <Outlet /> : <Navigate to="/" />
   )
 }
  
